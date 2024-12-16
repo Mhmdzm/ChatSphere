@@ -6,7 +6,7 @@ include_once("php/header.php");
   <div class="wrapper">
     <section class="form signup">
       <header>Realtime chat App</header>
-      <form action="register.php" method="POST" enctype="multipart/form-data">
+      <form action="php/signup.php" method="POST" enctype="multipart/form-data">
         <div class="error-txt"></div>
         <div class="name-details">
           <div class="field input">
@@ -20,7 +20,7 @@ include_once("php/header.php");
         </div>
         <div class="field input">
           <label>Email Address</label>
-          <input name="email" type="text" placeholder="Email Addess" required />
+          <input name="email" type="text" placeholder="Email Address" required />
         </div>
         <div class="field input">
           <label>Password</label>
@@ -32,13 +32,15 @@ include_once("php/header.php");
           <input type="file" name="image" required />
         </div>
         <div class="field button">
-          <input type="submit" value="continue to chat" />
+          <input type="submit" value="Continue to Chat" />
         </div>
       </form>
       <div class="link">Already signed up? <a href="login.php">Login now</a></div>
     </section>
   </div>
 </body>
+
 <script src="javascript/pass-show-hide.js"></script>
+<script src="javascript/signup.js"></script>
 
 </html>

@@ -3,7 +3,7 @@ const form = document.querySelector(".signup form"),
   errorText = form.querySelector(".error-txt");
 
 form.onsubmit = (e) => {
-  e.preventDefault();
+  e.preventDefault();  
 };
 
 continueBtn.onclick = () => {
@@ -14,14 +14,14 @@ continueBtn.onclick = () => {
       if (xhr.status === 200) {
         let data = xhr.response;
         if (data == "success") {
-          location.href = "login.php";
+          location.href = "login.php";  
         } else {
-          errorText.textContent = data;
+          errorText.textContent = data; 
           errorText.style.display = "block";
         }
       }
     }
   };
-  let formData = new FormData(form);
-  xhr.send(formData);
+  let formData = new FormData(form); 
+  xhr.send(formData); 
 };
