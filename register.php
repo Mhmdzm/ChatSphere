@@ -39,5 +39,6 @@ include_once("php/header.php");
     </section>
   </div>
 </body>
+<script src="javascript/pass-show-hide.js"></script>
 
 </html>
