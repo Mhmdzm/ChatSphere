@@ -138,7 +138,7 @@ form .name-details .field:first-child {
   color: #fff;
   font-size: 17px;
   padding: 7px 15px;
-  background-color: #333;
+  background-color: black;
   border-radius: 5px;
 }
 .users .search {
@@ -181,7 +181,7 @@ form .name-details .field:first-child {
 }
 .users .search button.active {
   color: #fff;
-  background-color: #333;
+  background-color: black;
 }
 .users .search button.active i::before {
   content: "\f00d";
@@ -205,7 +205,7 @@ form .name-details .field:first-child {
   width: 40px;
 }
 .user-list a .content p {
-  color: #67676a;
+  color: black;
 }
 .user-list a:last-child {
   border: none;
@@ -238,7 +238,7 @@ form .name-details .field:first-child {
 }
 .chat-box {
   height: 500px;
-  background-color: #f7f7f7;
+  background-color: rgb(0, 0, 0);
   padding: 10px 30px 20px 30px;
   box-shadow: inset 0 32px 32px -32px rgba(0, 0, 0, 5%),
     inset 0 -32px 32px -32px rgba(0, 0, 0, 5%);
@@ -256,7 +256,7 @@ form .name-details .field:first-child {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.08), 0 16px 16px -16px rgba(0, 0, 0, 10%);
 }
 .outgoing .details p {
-  background-color: #333;
+  background-color: white;
   color: black;
   border-radius: 18px 18px 0 18px;
 }
@@ -303,7 +303,7 @@ form .name-details .field:first-child {
   outline: none;
   font-size: 19px;
   color: white;
-  background-color: #333;
+  background-color: black;
   cursor: pointer;
   border-radius: 0 5px 5px 0;
 }
