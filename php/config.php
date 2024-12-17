@@ -1,4 +1,2 @@
 <?php
-    $conn = mysqli_connect("localhost" , "root" ,"" ,"chat");
-
-?>
+$conn = mysqli_connect("localhost", "root", "", "onlinechat_db");
